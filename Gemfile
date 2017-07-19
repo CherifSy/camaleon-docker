@@ -14,7 +14,7 @@ gem 'puma', '~> 3.0'
 # Sinatra and dalli for caching and asset management:
 gem 'sinatra', require: nil
 gem 'dalli'
-
+gem 'therubyracer', platforms: :ruby
 # Use the Camaleon CMS gem, and its dependencies, as this is the point of this project
 gem "camaleon_cms",  '>= 2.4.3'
 # Camaleon depends on these gems to work with Rails 5
