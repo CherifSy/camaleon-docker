@@ -68,7 +68,7 @@ Then, you'll be able to access the new domains through the single control panel 
 
 I'll make this a lot more detailed soon. This project is still a work in progress.
 
-##TODO:
+## TODO:
 
 * [x] Install memcached and dalli for better caching and better load speeds.
 * [ ] Add Redis for better cabling.
