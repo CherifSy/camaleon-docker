@@ -14,7 +14,6 @@ You'll need a machine running Docker and Docker Compose with Rails 5. I build th
 
 If you don't want to build from scratch or follow this like a tutorial (see below for steps on how to recreate this repo), then simply clone this repository and run these commands:
 
-
 ```
 docker-compose up -d db #Start up the database container
 docker-compose run web rake db:setup #Set up the database, this does the database creation and schema load
